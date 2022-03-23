@@ -1,0 +1,27 @@
+.app__navbar-base {
+    width: 100%;
+    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.app__navbar-base {
+   
+    display: flex;
+}
+.app__navbar-icon-box {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.app__navbar-link-box {
+    width: 50%;
+    ul {
+        list-style: none;
+        display: flex;
+        li {
+            margin-right: 15px;
+        }
+    }
+
+}
